@@ -1,5 +1,5 @@
 // Write your solution in this file!
-let burgers = ["Hamburger", "Cheeseburger"];
+const burgers = ["Hamburger", "Cheeseburger"];
 let featuredDrink = "strawberryMilkshake";
 
 function addBurger() {
@@ -12,12 +12,11 @@ if (true) {
     burgers.push(anotherNewBurger);
 }
 function changeFeaturedDrink() {
-    featuredDrink = "Strawberry Milkshake";
+    featuredDrink = "The JavaShake";
 }
 
 console.log(burgers);
 console.log(featuredDrink);
-addBurger();
-changeFeaturedDrink();
-console.log(burgers);
-console.log(featuredDrink);
+
+
+
