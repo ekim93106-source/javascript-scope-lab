@@ -3,16 +3,16 @@ let burgers = ["Hamburger", "Cheeseburger"];
 let featuredDrink = "strawberryMilkshake";
 
 function addBurger() {
-    let newBurger = "Flatburger";
+    const newBurger = "Flatburger";
     burgers.push(newBurger);
 }
 
 if (true) {
-    let anotherNewBurger = "Maple Bacon Burger";
+    const anotherNewBurger = "Maple Bacon Burger";
     burgers.push(anotherNewBurger);
 }
 function changeFeaturedDrink() {
-    featuredDrink = "The JavaShake";
+    featuredDrink = "Strawberry Milkshake";
 }
 
 console.log(burgers);
